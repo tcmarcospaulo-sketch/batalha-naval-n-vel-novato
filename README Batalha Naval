@@ -1,0 +1,127 @@
+# 🚢 Jogo Batalha Naval em C
+
+Este repositório contém o desenvolvimento completo do projeto **Batalha Naval em C**, evoluindo desde o básico até o **Nível Mestre**, com manipulação de matrizes, posicionamento de navios e aplicação de habilidades especiais com áreas de efeito.
+
+---
+
+## 📘 Objetivo do projeto
+
+O objetivo é praticar lógica de programação em C utilizando **vetores e matrizes**, desenvolvendo gradualmente funcionalidades mais complexas até a criação de efeitos especiais no tabuleiro.
+
+---
+
+## 📅 Evolução do projeto
+
+Abaixo estão os módulos desenvolvidos ao longo do estudo:
+
+### 🔹 Nível Básico
+
+* Criação de um tabuleiro 10x10
+* Uso de matriz para representar o oceano
+* Exibição básica no console
+
+### 🔹 Nível Intermediário
+
+* Posicionamento de navios no tabuleiro
+* Uso de loops para manipular posições específicas
+* Representação visual com números ou caracteres
+
+### 🔹 Nível Avançado
+
+* Criação de múltiplas matrizes de habilidade
+* Uso de valores 0 e 1 para representar área ativa e inativa
+* Preparação para aplicação em jogo real
+
+### 🔥 Nível Mestre (final)
+
+* Habilidades especiais com **área de efeito**
+* Matrizes próprias para cada habilidade:
+
+  * Cone
+  * Cruz
+  * Octaedro (losango)
+* Sobreposição das habilidades no tabuleiro
+* Marcando células atingidas com valor *5*
+* Exibição completa do tabuleiro com água, navios e efeitos
+
+Esse nível avalia domínio em:
+
+* Matrizes multidimensionais
+* Condicionais
+* Loops aninhados
+* Manipulação de coordenadas no tabuleiro
+
+---
+
+## 📁 Estrutura dos arquivos
+
+```
+📂 batalha-naval
+ ├── nivel_basico.c
+ ├── nivel_intermediario.c
+ ├── nivel_avancado.c
+ ├── nivel_mestre_habilidades.c   ← (arquivo final)
+ └── README.md
+```
+
+---
+
+## 🧾 Instruções para compilar e executar
+
+### 🔧 Compilação
+
+No terminal, dentro da pasta do projeto:
+
+```
+gcc nivel_mestre_habilidades.c -o batalha
+```
+
+### ▶ Execução
+
+```
+./batalha
+```
+
+O tabuleiro aparecerá no console mostrando:
+
+* **`.`** → água
+* **`N`** → navio
+* **`X`** → área atingida pela habilidade
+
+---
+
+## 🚀 Funcionalidades confirmadas
+
+✔ Tabuleiro 10x10 funcional
+✔ Matrizes de habilidades Cone, Cruz e Octaedro
+✔ Aplicação das áreas no mapa com sobreposição
+✔ Exibição gráfica simples no terminal
+✔ Código comentado para aprendizado
+
+---
+
+## 📎 Como enviar na plataforma SAVA
+
+1. Certifique-se que seu repositório está **público**
+2. Copie o link da página principal do projeto no GitHub
+3. Cole na atividade correspondente do SAVA
+
+Exemplo:
+
+```
+https://github.com/usuario/batalha-naval
+```
+
+---
+
+## 🏁 Considerações finais
+
+Este projeto consolida a base para jogos mais complexos em C.
+A partir daqui, você pode expandir para:
+
+* Sistema real de ataques
+* Contagem de dano
+* Interface gráfica
+* Jogador vs IA
+
+Se quiser evoluir o jogo, posso ajudar no próximo passo. 😉
